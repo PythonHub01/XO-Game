@@ -1,0 +1,26 @@
+X-O Game for Two Players
+
+Game Concept:
+
+The game is played on a 3×3 board.
+Each player picks an empty spot and places their symbol.
+The first player to get three symbols in a row (horizontally, vertically, or diagonally) wins.
+If all spaces are filled and no one wins, the game ends in a draw.
+------------------------------------------------------------------------------------------------------------------------------------
+Key main Functions in the Code:
+
+create_board() → Initializes an empty board.
+print_board() → Displays the current board for players.
+get_player_info() → Gets each player's name and symbol.
+get_move() → Takes the player's move and validates it.
+check_winner() → Checks if there is a winner.
+is_draw() → Determines if the board is full with no winner.
+play_game() → Manages the entire game from start to finish.
+------------------------------------------------------------------------------------------------------------------------------------
+How to Play:
+
+When the game starts, each player selects their name and symbol.
+Each turn, the game displays the board and asks the current player to choose a number (1-9) to place their symbol.
+The game continues until a player wins or the game ends in a draw.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
